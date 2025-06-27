@@ -1,0 +1,6 @@
+lst = input('list of elements (separated by spaces): ')
+lst = lst.split()
+s = set(lst)
+s = sorted(s)
+lst.sort()
+print(not (s == lst))

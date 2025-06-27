@@ -1,0 +1,12 @@
+[project]
+name = "onboarding"
+version = "0.1.0"
+description = "Short description of your package"
+authors = [{ name = "Your Name", email = "your@email.com" }]
+readme = "README.md"
+requires-python = ">=3.0"
+dependencies = []
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
